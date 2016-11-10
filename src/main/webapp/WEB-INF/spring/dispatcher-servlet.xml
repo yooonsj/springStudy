@@ -10,6 +10,7 @@
     <annotation-driven/>
     <context:component-scan base-package="com.study"/>
 
+    <!-- Resources -->
     <resources mapping="/resources/**" location="/resources/"/>
     <resources mapping="/component/**" location="/resources/bower_components/"/>
     <resources mapping="/js/**" location="/resources/js/"/>

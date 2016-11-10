@@ -9,11 +9,10 @@
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
 <html>
 <head>
-    <title>Title</title>
     <tiles:insertAttribute name="head"/>
 </head>
 <body>
-    <tiles:insertAttribute name="header"/>
+    <tiles:insertAttribute name="menu"/>
     <tiles:insertAttribute name="body"/>
     <tiles:insertAttribute name="footer"/>
 </body>
