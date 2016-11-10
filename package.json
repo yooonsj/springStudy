@@ -1,0 +1,26 @@
+{
+  "name": "spring-study",
+  "version": "1.0.0",
+  "description": "spring study",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yooonsj/springStudy.git"
+  },
+  "keywords": [
+    "spring"
+  ],
+  "author": "yooonsj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yooonsj/springStudy/issues"
+  },
+  "homepage": "https://github.com/yooonsj/springStudy#readme"
+}
