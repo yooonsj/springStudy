@@ -27,6 +27,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <h3>Database</h3>
+                    <hr class="star-primary">
+                </div>
+                <ul>
+                    <li>
+                        <span class="alert alert-info"><strong>Maria DB</strong> - 10.0.24</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
                     <h3>Back-End Libraries</h3>
                     <hr class="star-primary">
                 </div>
@@ -39,6 +50,9 @@
                     </li>
                     <li>
                         <span class="alert alert-success"><strong>Tiles</strong> - 3.0.7</span>
+                    </li>
+                    <li>
+                        <span class="alert alert-success"><strong>Mybatis</strong> - 3.4.1</span>
                     </li>
                     <li>
                         <span class="alert alert-success"><strong>Logback</strong> - 1.1.7</span>

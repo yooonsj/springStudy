@@ -19,6 +19,7 @@
 <!-- //Style -->
 <!-- Javascript -->
 <script type="text/javascript" src="<c:url value="/component/jquery/dist/jquery.min.js"/>"></script>
+<script type="text/javascript" src="<c:url value="/component/jquery-form/jquery.form.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/component/bootstrap/dist/js/bootstrap.min.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/component/Bootflat/bootflat/js/icheck.min.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/component/Bootflat/bootflat/js/jquery.fs.selecter.min.js"/>"></script>

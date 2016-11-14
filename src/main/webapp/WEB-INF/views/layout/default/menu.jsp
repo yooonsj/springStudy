@@ -6,7 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom affix-top">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<nav id="mainNav" class="navbar navbar-default ">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -22,9 +23,20 @@
                 <li class="hidden active">
                     <a href="#page-top"></a>
                 </li>
-                <li class="page-scroll">
-                    <a href="#portfolio">Sign up</a>
-                </li>
+                <c:if test="${sessionScope.userName == null}">
+                    <li class="page-scroll">
+                        <a href="/user/signIn">Sign in</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/user/signUp">Sign up</a>
+                    </li>
+                </c:if>
+                <c:if test="${sessionScope.userName != null}">
+                    <p class="navbar-text">Signed in as ${sessionScope.userName}</p>
+                    <li class="page-scroll">
+                        <a href="/user/signOut">Sign out</a>
+                    </li>
+                </c:if>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
