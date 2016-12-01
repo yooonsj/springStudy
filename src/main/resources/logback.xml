@@ -34,7 +34,7 @@
         <appender-ref ref="console"/>
         <appender-ref ref="file"/>
     </logger>
-    <logger name="com.study" level="INFO">
+    <logger name="com.study" level="INFO, DEBUG">
         <appender-ref ref="console"/>
         <appender-ref ref="file"/>
     </logger>
