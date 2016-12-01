@@ -12,18 +12,24 @@
 </head>
 <body>
     <section class="container">
-        <h1>Sign In</h1>
-        <form id="signIn_FORM" action="/user/signIn" method="post">
-            <div class="form-group">
-                <label for="signIn_id">Id</label>
-                <input type="text" class="form-control" id="signIn_id" name="id" placeholder="Id">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>Sign In</h3>
             </div>
-            <div class="form-group">
-                <label for="signIn_password">Password</label>
-                <input type="password" class="form-control" id="signIn_password" name="password" placeholder="Password">
+            <div class="panel-body">
+                <form id="signIn_FORM" action="/user/signIn" method="post">
+                    <div class="form-group">
+                        <label for="signIn_id">Id</label>
+                        <input type="text" class="form-control" id="signIn_id" name="id" placeholder="Id">
+                    </div>
+                    <div class="form-group">
+                        <label for="signIn_password">Password</label>
+                        <input type="password" class="form-control" id="signIn_password" name="password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+        </div>
     </section>
     <script type="text/javascript">
         $(function() {
